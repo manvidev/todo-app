@@ -1,0 +1,199 @@
+/* 
+  .todo-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .add-todo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-todo-container input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+  }
+  
+  .add-todo-container button {
+    padding: 10px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 400px;
+  }
+  
+  .todo-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .todo-list li.completed {
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+  
+  .todo-list li span {
+    margin-left: 10px;
+    flex: 1;
+  }
+  
+  .clear-completed {
+    padding: 10px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+   */
+
+
+   .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .todo-list-container {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .add-todo-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .add-todo-container input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+  }
+  
+  .add-todo-container button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-todo-container button:hover {
+    background-color: #008000;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  } 
+  
+ 
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .completed {
+    text-decoration: line-through;
+    }
+    
+    span {
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    }
+    
+    input[type="checkbox"] {
+    margin-right: 10px;
+    }
+    
+    input[type="checkbox"]:checked + span {
+    color: green;
+    }
+    
+    span[contentEditable="true"] {
+    border-bottom: 1px dashed #ccc;
+    cursor: text;
+    }
+    
+    span[contentEditable="true"]:focus {
+    outline: none;
+    }
+    
+    button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+    
+  
+    
+    .clear-completed {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+    
+    .clear-completed:hover {
+    background-color: #ff3333;
+    }
+    /* These are just some suggestions, and you can modify the styles to fit your desired look and feel. */
+    
+    
+    
+    
